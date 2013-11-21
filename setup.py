@@ -15,7 +15,7 @@ def read(fname):
 setup(
     name = "django-filer",
     version = version,
-    url = 'http://github.com/stefanfoulis/django-filer',
+    url = 'https://github.com/gorandev/django-filer',
     license = 'BSD',
     platforms=['OS Independent'],
     description = "A file management application for django that makes handling of files and images a breeze.",
@@ -27,7 +27,7 @@ setup(
         # 'Django>=1.3,<1.5',  # no need to limit while in development
         'Django>=1.3',
         'easy-thumbnails>=1.0',
-        'django-mptt>=0.5.1,<0.6',
+        'django-mptt>=0.5.1,<=0.6',
         'django_polymorphic>=0.2',
     ),
     include_package_data=True,
