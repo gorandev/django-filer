@@ -25,7 +25,7 @@
 		django.jQuery("#{{ thumb_id }}").attr("src", "{{ filer_static_prefix }}icons/nofile_48x48.png");
 		django.jQuery("#{{ span_id }}").html("");
 		django.jQuery("#{{ clear_id }}").hide();
-		django.jQuery("#reminder_{{ clear_id }}").hide();
+		django.jQuery("#reminder_{{ clear_id }}").show();
 	});
 	django.jQuery(document).ready(function(){
 		var plus = django.jQuery("#add_{{ id }}");
